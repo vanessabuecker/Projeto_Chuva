@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Projeto Chuva</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid" id="container">
+        <!-- The sidebar -->
+        <div class="sidebar">
+
+            <div class="retangle">
+                <!-- The sidebar title-->
+                <h1>SLACA 2019 </h1>
+
+                <img src="./imgs/dewey 4.png" <i class="fas fa-qrcode"> </i>
+
+                <a class="active" href="#apresentacao">Apresentação</a>
+                <a href="#comites">Comitês</a>
+                <a href="#authors">Autores</a>
+                <a href="#eixostematicos">Eixos temáticos</a>
+                <a href="#trabalhos">Trabalhos</a>
+                <a href="#contacts">Contatos</a>
+                <a href="#edicoesanteriores">Edições anteriores</a>
+            </div>
+        </div>
+
+        <div class="navbar navbar-expand-lg fixed-top" id="fixedbar">
+            <header>
+                <div class="header-text">
+                    <p id="text1">Anais do Simpósio Latino Americano de Ciências de Alimentos</p>
+                    <p id="text2">Anais do 13º Simpósio Latino Americano de Ciência de Alimentos </p>
+                    <p id="text3">ISSN: 1234-5678</p>
+                </div>
+
+                <div class="select">
+                    <img src="./imgs/language image.png" alt="Language Select">
+                    <select onchange="loadlang()">
+                        <option value="pt-br">PT, BR</option>
+                        <option value="en">EN, USA</option>
+                    </select>
+                </div>
+
+                <div class="login">
+                    <div class="text-login">
+                        <p class="welcome">Bem vindo!</p>
+                        <p class="email">alguem2@galoascience.com</p>
+                    </div>
+
+                    <div class="img-login">
+                        <img id="picture" src="./imgs/image.png" alt="Picture user logged" />
+                        <img id="notify" src="./imgs/notify.png" alt="nofify" />
+                    </div>
+                </div>
+            </header>
+        </div>
+
+        <main>
+            
+            <div class="content">
+                <h1>Análise sensorial de preparações funcionais desenvolvidas para escolares<br />
+                    entre 09 e 15 anos, do município de Campinas/SP </h1>
+
+               
+                    <div class="buttons">
+                        <button id="b-download" type="button" class="buttons">
+                            <span class="button__icon"></span>
+                            <span class="button__text">Download</span>
+                            <img src="./imgs/download.png" alt="Botão de Download">
+
+                            <button id="b-favorite" type="button" class="buttons">
+                                <span class="icon"></span>
+                                <img id="img-favorite" src="./imgs/star.png" alt="Botão Favoritar">
+                            </button>
+
+                            <button id="b-doi" type="button" class="buttons">
+                                <span class="button__icon"></span>
+                                <img id="img-doi" src="./imgs/doi.png" alt="Botão Doi">
+                    </div>
+
+                    <div class="sidebar-right">
+
+                        <h2>Detalhes</h2>
+
+                        <span id="text-citar">COMO CITAR ESSE TRABALHO?</span>
+
+                        <div class="panel">
+
+                            <div class="paragraph">
+                                Tipo de Apresentação: <span id="txt1">Pôster</span><br />
+                                Eixo temático: <span id="txt1">Alimentação e saúde</span> (AS)<br />
+                                Palavras-chaves: <span id="txt1">Alimentos funcionais, alimentação escolar.</span><br />
+                                <br />
+                                <span id="txt2">Autores: </span><br />
+                                <span id="txt3">
+                                    Galileo Galilei¹<br />
+                                    Berta Lange de Morretes²<br />
+                                    Isaac Newton³<br />
+                                    Cesar Lattes¹<br />
+                                    Stephen Hawking⁴<br />
+                                    <br /> <br />
+                                </span>
+                                <span id="txt4"> <span> </span> ¹Universidade Estadual de Campinas<br />
+                                    ²Universidade de São Paulo<br />
+                                    ³Instituto Nacional de Pesquisas Espaciais<br />
+                                    ⁴Universidade Federal do Rio de Janeiro </span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                <div class="iframe">
+                    <img id="video-img" src="./imgs/vídeooverlay.png">
+
+                    <iframe
+                        src="https://www.youtube.com/embed/dtR2U-KsE3g?controls=0&modestbranding=1&autoplay=1&mute=1&playlist=QR3lp0ptpy8&loop=1"
+                        width="783" height="439" allow="autoplay"></iframe>
+                </div>
+
+                <div class="textvideo">
+                    <p>Análise sensorial de preparações funcionais desenvolvidas <br />para escolares entre 09 e 15
+                        anos, do
+                        município de <br /> Campinas/SP </p>
+
+                    <div class="img-video">
+                        <img id="imgcircle" src="./imgs/imagevideo.png" alt="imagem">
+
+                    </div>
+
+                    <div class="video-title-name">
+                        <p id="txt1">Beatriz Christiane Melo</p>
+                        <p id="txt2">FCA / Universidade Estadual de Campinas</p>
+                    </div>
+                </div>
+
+                <section>
+                    <div class="resume-box">
+                        <h2>Resumo</h2>
+
+                        <article> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae turpis
+                            auctor,
+                            mollis
+                            felis ut, commodo turpis. Phasellus felis mauris, egestas eget <br />
+                            cursus et, iaculis quis lacus. Fusce auctor eros sed magna ultricies gravida. Etiam aliquam
+                            dictum
+                            nisl, vel aliquet enim accumsan sit amet. Donec finibus <br />
+                            nisi tellus, ut viverra lorem vestibulum ut. Phasellus condimentum orci id leo condimentum
+                            lobortis
+                            et non lorem. Sed id nisl metus. Quisque sollicitudin <br />
+                            ligula in sapien scelerisque, ac gravida eros vestibulum.<br />
+                            <br />
+                            Fusce vitae luctus dui. Donec id euismod mauris, in volutpat urna. Proin dapibus consequat
+                            feugiat.
+                            Proin dictum justo arcu, quis vestibulum augue lacinia <br />
+                            quis. Sed dignissim dui nulla, ut faucibus mauris sodales id. Aliquam erat volutpat.
+                            Maecenas
+                            dolor
+                            enim, tincidunt id elit non, suscipit interdum turpis. <br />
+                            Etiam finibus urna libero, eget interdum eros volutpat ullamcorper. Pellentesque et pretium
+                            lorem.
+                            Aenean interdum quis diam ac porttitor. Cras nec ipsum <br />
+                            pulvinar, pharetra libero non, ornare enim. Etiam in laoreet odio. <br /> <br />
+
+                            Nam eget tristique elit, at fermentum tellus. Mauris scelerisque ligula id eleifend feugiat.
+                            Donec
+                            eleifend vehicula sem nec dapibus. Integer scelerisque <br />
+                            neque dui, in lacinia erat molestie eu. Phasellus maximus dui eget lacus porta tempor. Ut ex
+                            nibh,
+                            dignissim quis purus semper, efficitur facilisis turpis. <br />
+                            Praesent blandit elementum ultricies. Aliquam sit amet enim sit amet nulla pulvinar lobortis
+                            consectetur non odio. Phasellus at lacus hendrerit, vulputate <br />
+                            nisi sit amet, viverra mauris. Etiam eu scelerisque orci. Quisque sagittis, mi vitae
+                            pharetra
+                            iaculis, orci elit eleifend massa, eu posuere mauris odio id odio. <br />
+                            Morbi eu libero luctus, consectetur lorem vel, interdum sapien. Aenean in porta arcu.
+                            Maecenas
+                            eu
+                            maximus massa. <br /> <br />
+
+                            Praesent velit dolor, dignissim sed quam ac, efficitur porta justo. Pellentesque porta
+                            pharetra
+                            felis ut hendrerit. Nulla facilisi. Aliquam erat volutpat. Nunc <br />
+                            sit amet faucibus quam. Maecenas dapibus luctus dolor at viverra. Duis nec fringilla libero.
+                            Duis
+                            risus nibh, viverra ac orci nec, iaculis dictum sem. Aliquam at malesuada arcu. Aliquam
+                            <br />
+                            erat volutpat. Donec varius ipsum purus, ut vehicula purus placerat vitae. Lorem ipsum dolor
+                            sit
+                            amet, consectetur adipiscing <br /> elit.
+                            <article>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="panel-discussions">
+                        <h2 id="disc">Discussões</h2>
+
+                        <div class="shareIdeas">
+                            <p id="shareIdeas">Compartilhe suas ideias ou dúvidas com os autores!</p>
+
+                            <div class="vectors">
+                                <img id="icon1" src="./imgs/icone1.png" alt="icone">
+                                <img id="icon2" src="./imgs/icone2.png" alt="icone">
+                                <img id="icon3" src="./imgs/icone3.png" alt="icone">
+                            </div>
+
+                            <p id="youKnow">Sabia que o maior estímulo no desenvolvimento científico e cultural é a
+                                curiosidade?
+                                Deixe seus <br />questionamentos ou sugestões para o autor!</p>
+
+                            <div class="button-create">
+                                <button id="create-button" type="button" class="buttons">
+                                    <span class="button__icon"></span>
+                                    <span class="button__text">criar tópico</span>
+                                    <img src="./imgs/icon - criar.png" alt="Botão para criar tópico">
+                            </div>
+                        </div>
+
+                        <div class="card-topics">
+
+                            <p id="subject-ask">Assunto da pergunta aparece aqui</p>
+                            <p id="name">Carlos Henrique Santos</p>
+                            <p id="msgpost">Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da
+                                análise da
+                                dimensão e impacto de processo formativo situado impacto de processo formativo
+                                processo...
+                            </p>
+
+                            <div class="card-footer">
+                                <svg id="ellipse" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                                    <path
+                                        d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+                                </svg>
+
+                                <svg id="heart" xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                    fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 27 19">
+                                    <path fill-rule="evenodd"
+                                        d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                                </svg>
+
+                                <span id="like">1 like</span> <span id="response">1 resposta</span>
+                            </div>
+                        </div>
+
+                        <div class="card-topics-copy">
+
+                            <p id="subject-ask">Assunto da pergunta aparece aqui</p>
+                            <p id="name">Carlos Henrique Santos</p>
+                            <p id="msgpost">Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da
+                                análise da
+                                dimensão e impacto de processo formativo situado impacto de processo formativo
+                                processo...
+                            </p>
+
+                            <div class="card-footer">
+                                <svg id="ellipse" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                                    <path
+                                        d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+                                </svg>
+
+                                <svg id="heart" xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                    fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 27 19">
+                                    <path fill-rule="evenodd"
+                                        d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                                </svg>
+
+                                <span id="like">1 like</span> <span id="response">1 resposta</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+        </main>
+
+        <footer class="footer"> <img src="./imgs/imagem - footer.png" alt="imagem footer"> </footer>
+
+    </div>
+    </div>
+
+    <!--BootStrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
